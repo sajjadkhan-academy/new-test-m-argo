@@ -1,0 +1,11 @@
+site_name: new-test-m-argo
+site_description: Documentation for new-test-m-argo
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+
+plugins:
+  - techdocs-core

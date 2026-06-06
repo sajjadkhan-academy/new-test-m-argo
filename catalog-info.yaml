@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: new-test-m-argo
+  description: FastAPI microservice
+  annotations:
+    github.com/project-slug: sajjadkhan-academy/new-test-m-argo
+    backstage.io/source-location: url:https://github.com/sajjadkhan-academy/new-test-m-argo/tree/main/
+    argocd/app-name: new-test-m-argo-dev
+    grafana/dashboard-selector: new-test-m-argo
+    backstage.io/kubernetes-id: new-test-m-argo
+    backstage.io/kubernetes-namespace: apps
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - fastapi
+    - gitops
+spec:
+  type: service
+  lifecycle: dev
+  owner: user:default/sajjadkhan12
