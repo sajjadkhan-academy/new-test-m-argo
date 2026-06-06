@@ -8,6 +8,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/sajjadkhan-academy/new-test-m-argo/tree/main/
     argocd/app-name: new-test-m-argo-dev
     grafana/dashboard-selector: new-test-m-argo
+    grafana/alert-label-selector: service=new-test-m-argo
     backstage.io/kubernetes-id: new-test-m-argo
     backstage.io/kubernetes-namespace: apps
     backstage.io/techdocs-ref: dir:.
